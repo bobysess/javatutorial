@@ -45,8 +45,12 @@ public class Main {
         String IBAN = "DE02120300000000202051";
         String telefonumber = "+4916474647700";
         String country = "cameroon";
+        String concate = "Hello " + " Otto"; // => Hello Otto
+        String greeting = "Hello " + name;  // =>  Hello Müller
 
-        //EX1: create variable with
+        //EX1: create  variables to save following data (by thinking about the best dataType und with other without value):
+        //radius (14.4),  PI (3.14),  speed (2.4),  gehalt (10.000.000.000),  distane (1000),  firstame (Ottoma), message (hallo chat)
+        //animal (lion), adresse (mainstr. 40, 67546 New York),  gender (female), city (Douala)
 
 
         // BASIC  OPERATION
@@ -79,6 +83,29 @@ public class Main {
         boolean comparaison1 =  (10 > 6) && (5 > 2); // => true
         boolean comparaison2 =  (2 > 6) || (5 > 2);  // => true
         boolean comparaison3 =  !(1 > 0); // => false
+        int max = (y > z)? y : z;
+        int min = (z < y)? z : y;
+
+        // Out In Console
+        System.out.print("Hello ");
+        System.out.print("Otto");
+        System.out.println("Hello ");
+        System.out.println("Otto");
+
+        // Input in Console
+        //Scanner scan = new Scanner (System.in);
+        int old = readInt();
+        double weightOfOtto = readDouble();
+        String firstname  = readString();
+
+        // EX2: write a program which read a number of  minutes and convert to number of day and years and print it (days = minutes/(24*60),  years = days/360)
+        // EX3: write a program which read a distance in inch and convert it to meter and print (meter = inch*0.0254)
+        // EX4: Write a program to compute body mass index (body mass index = weight/height). the program most read weight and height from the console
+        // EX5: write a program that calculate speed. the program most read distance (in meter) und time (in second) out the console (s = d/t). print the speed in different units m/s, km/s, km/h
+        // EX6: write a program that read a number from console and print his the square, cube, and fourth power
+        // EX7: Write a Java program that accepts two integers from console and print their sum, difference, product, average, modulo,  the max and min
+        // EX: Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer
+
 
         // Bitwise Oeprator
         int byte1 = 0b01;
@@ -90,10 +117,6 @@ public class Main {
         int shiftLeft = 0b0011 << 1; // 0110
         int shiftRight = 0b1100 >> 2; // 0011
 
-
-
-
-
         // Char
         char  letterA = 'a'; // 16 bit ->
         // unicode table:  https://www.rapidtables.com/code/text/unicode-characters.html
@@ -101,21 +124,5 @@ public class Main {
 
         // String Advanced
         String newline = "sfaff \\n \\r";
-
-
-        // Out In Console
-        System.out.print("Hello ");
-        System.out.print("Otto");
-        System.out.println("Hello ");
-        System.out.println("Otto");
-
-
-        // Input in Console
-        Scanner scan = new Scanner (System.in);
-        int old = scan.nextInt();
-        float weightOfOtto = scan.nextFloat();
-        String firstname  = scan.nextLine();
-
-        //
     }
 }
