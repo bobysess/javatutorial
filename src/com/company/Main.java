@@ -18,11 +18,12 @@ import static com.company.Console.print;
 public class Main {
 
     public static void main(String[] args) {
+        // Arrays google,
         // Array definition
         int[] numbers = {3, 4, 7, 8, 9};
         float[] weights = {1.2f, 2.3f, 4.5f, 6.7f};
         String[] names = {"Müller", "Otto", "Mika", "Lena"};
-        String[] fruits = {"Orange", "Apple", "Pear", "Strawbeer"};
+        String[] fruits = new String[]{"Orange", "Apple", "Pear", "Strawbeer"};
         // other way and defaults values
         int[] ids = new int[3]; // => {0, 0, 0}
         float[] floats = new float[3]; // => {0.0, 0.0, 0.0}
