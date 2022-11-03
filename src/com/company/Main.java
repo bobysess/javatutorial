@@ -71,7 +71,5 @@ public class Main {
         // EX  https://www.w3resource.com/java-exercises/array/index.php
         // ignore:
         // complex: 1, 3,
-
-
     }
 }
