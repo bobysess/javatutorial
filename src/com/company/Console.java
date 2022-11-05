@@ -7,9 +7,24 @@ public class Console {
 
     private static Scanner scan = new Scanner(System.in);
 
+    public static byte readByte() {
+        return scan.nextByte();
+    }
+
+    public static short readShort() {
+        return scan.nextShort();
+    }
 
     public static int readInt() {
         return scan.nextInt();
+    }
+
+    public static long readLong() {
+        return scan.nextLong();
+    }
+
+    public static double readFloat() {
+        return scan.nextFloat();
     }
 
     public static double readDouble() {

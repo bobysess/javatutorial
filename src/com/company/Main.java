@@ -1,7 +1,13 @@
 package com.company;
 
+import static com.company.Console.readByte;
+import static com.company.Console.readShort;
 import static com.company.Console.readInt;
+import static com.company.Console.readLong;
+import static com.company.Console.readFloat;
 import static com.company.Console.readDouble;
+import static com.company.Console.readBoolean;
+import static com.company.Console.readChar;
 import static com.company.Console.readString;
 import static com.company.Console.readChar;
 import static com.company.Console.readBoolean;
