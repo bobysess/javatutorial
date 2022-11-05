@@ -16,6 +16,14 @@ public class Console {
         return scan.nextDouble();
     }
 
+    public static char readChar() {
+        return scan.next().charAt(0);
+    }
+
+    public static boolean readBoolean() {
+        return scan.nextBoolean();
+    }
+
     public static String readString() {
         return scan.nextLine();
     }
