@@ -93,10 +93,14 @@ public class Main {
         System.out.println("Otto");
 
         // Input in Console
-        //Scanner scan = new Scanner (System.in);
         int old = readInt();
         double weightOfOtto = readDouble();
-        String firstname  = readString();
+        String firstname = readString();
+
+        //
+        System.out.println("tipping old of Otto:");
+        int oldOtto = readInt();
+        System.out.println("Otto old is: " + oldOtto);
 
         // EX2: write a program which read a number of  minutes and convert to number of day and years and print it (days = minutes/(24*60),  years = days/360)
         // EX3: write a program which read a distance in inch and convert it to meter and print (meter = inch*0.0254)
