@@ -24,7 +24,7 @@ public class Main {
         // if ..
         int old = 10;
         if (old > 100) {
-            System.out.println(" old  ");
+            System.out.println(" old  is bigger than 100");
         }
 
         int oldA = 10, oldB=2, oldC=3;
@@ -118,5 +118,6 @@ public class Main {
         // EX: https://www.w3resource.com/java-exercises/conditional-statement/index.php
         // 5.  with switch and loop exercise start a 10.
         // ignore too complicated 11, 19, 21, 22, 24, 25, 26
+        // 3 exercises with if, while and for and 1 with switch
     }
 }
